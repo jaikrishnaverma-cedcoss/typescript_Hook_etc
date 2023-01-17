@@ -7,13 +7,12 @@ function App() {
  const [toggle,setToggle]=useState(true)
   return (
     <div className="App">
-      <button className='btn' onClick={()=>setToggle(!toggle)}>{(toggle)?'Switch to Task 2':'Switch to Task 1'}</button>
+      <button className='btn' onClick={()=>setToggle(!toggle)}>Click for {(toggle)?'Switch to Task 2':'Switch to Task 1'}</button>
            <header className="App-header">
       {
         (toggle)?<ParentComponents />: <ParentComponents2 />
       }
  
-        
       </header>
 
     </div>

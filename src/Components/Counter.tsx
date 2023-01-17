@@ -25,7 +25,7 @@ const Counter = () => {
     const [state, dispatch] = useReducer(reducer, initialState)
 
     return (
-        <button onClick={() => dispatch({ type: "increment", payload: 1 })} className='b'>{state.count}</button>
+        <button onClick={() => dispatch({ type: "increment", payload: 1 })} className='b'>you Clicked me {state.count} times</button>
     )
 }
 
