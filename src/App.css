@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+table {
+  margin: 10px 10px;
+}
+
+table,
+td,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 5px 10px;
+}
+
+th {
+  background-color: green;
+  color: white !important;
+}
+
+td {
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.b {
+  border: 1px solid grey;
+  padding: 5px
+}
+
+button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+input {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 16px;
+  font-weight: 500;
+}
